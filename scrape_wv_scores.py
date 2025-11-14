@@ -6,8 +6,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-URL = "http://wvtailgatecentral.com/hs/fb2025/week_schedule.php?startdate=2025-11-04&enddate=2025-11-10"
-OUTPUT_CSV = Path("wv_scores_week11.csv")
+URL = "http://wvtailgatecentral.com/hs/fb2025/week_schedule.php?startdate=2025-10-28&enddate=2025-11-03"
+OUTPUT_CSV = Path("wv_scores_week10.csv")
 
 # Some small websites block the default Python requests user agent.
 # Pretend to be a normal browser so the server is happy.

@@ -1,68 +1,68 @@
-date,away_team,away_score,home_team,home_score,note
-2025-11-04,Montcalm **,55,Bland (VA),14,
-2025-11-06,Princeton,55,South Charleston **,19,
-2025-11-07,Clay-Battelle,30,Magnolia **,0,
-2025-11-07,Greenbrier West **,55,Gilmer County,6,
-2025-11-07,Pendleton County,36,Cameron **,28,
-2025-11-07,Pocahontas County **,49,Webster County,0,
-2025-11-07,Ritchie County **,38,Calhoun County,0,
-2025-11-07,Sherman **,26,Poca,8,
-2025-11-07,St. Marys **,48,Wirt County,15,
-2025-11-07,Tolsia **,20,River View,12,
-2025-11-07,Tucker County **,28,Hampshire,21,
-2025-11-07,Tygarts Valley **,32,Montcalm,6,
-2025-11-07,Valley-Wetzel,52,Richwood **,42,
-2025-11-07,Wahama **,49,Man,0,
-2025-11-07,Clay County **,19,Braxton County,17,
-2025-11-07,Doddridge County,34,Mingo Central **,14,
-2025-11-07,Frankfort,41,Keyser **,7,
-2025-11-07,Independence,56,Summers County **,6,
-2025-11-07,James Monroe **,49,Tug Valley,6,
-2025-11-07,Logan,20,Westside **,0,
-2025-11-07,Midland Trail **,66,Lincoln County,0,
-2025-11-07,Moorefield,63,Berkeley Springs **,7,
-2025-11-07,Petersburg **,38,East Hardy,31,
-2025-11-07,Philip Barbour **,55,Lincoln,0,
-2025-11-07,Roane County,46,Tyler Consolidated **,43,
-2025-11-07,South Harrison,28,Ravenswood **,7,
-2025-11-07,Wayne,30,Sissonville **,13,
-2025-11-07,Williamstown **,41,Scott,21,
-2025-11-07,Wyoming East **,38,Liberty-Raleigh,18,
-2025-11-07,Capital,16,Riverside **,8,
-2025-11-07,Chapmanville Regional **,69,St. Albans,6,
-2025-11-07,Elkins,53,Preston **,35,
-2025-11-07,Fairmont Sr.,49,East Fairmont **,14,
-2025-11-07,Herbert Hoover,44,Weir **,14,
-2025-11-07,Lewis County,10,Grafton **,9,
-2025-11-07,Nitro **,23,Greenbrier East,6,
-2025-11-07,North Marion,35,Oak Hill **,0,
-2025-11-07,PikeView **,56,Buffalo,48,
-2025-11-07,Ripley,34,Nicholas County **,19,
-2025-11-07,Robert C. Byrd **,34,Buckhannon-Upshur,0,
-2025-11-07,Winfield **,35,Pt. Pleasant,12,
-2025-11-07,George Washington **,42,Woodrow Wilson,0,
-2025-11-07,Jefferson,48,Washington **,0,
-2025-11-07,Morgantown **,45,Musselman,0,
-2025-11-07,Parkersburg South **,28,Cabell Midland,7,
-2025-11-07,Spring Mills **,63,Hedgesville,0,
-2025-11-07,Wheeling Park,63,John Marshall **,40,
-2025-11-07,Woodson (DC),14,Jackson Reed (DC) **,6,
-2025-11-07,Alleghany Highlands (VA),41,Rockbridge County (VA) **,0,
-2025-11-07,Craig County (VA),36,Meadow Bridge **,0,
-2025-11-07,Dominion (VA) **,42,Park View-Sterling (VA),6,
-2025-11-07,Giles (VA) **,53,Wythe (VA),20,
-2025-11-07,Graham (VA),56,Richlands (VA) **,12,
-2025-11-07,Grundy (VA) **,38,Wise Central (VA),35,
-2025-11-07,Heritage-Lynchburg (VA),20,Jefferson Forest (VA) **,14,
-2025-11-07,Hurley (VA) **,58,Twin Valley (VA),6,
-2025-11-07,John Champe (VA) **,21,Freedom (VA),0,
-2025-11-07,Loudoun County (VA),35,Heritage (VA) **,0,
-2025-11-07,Loudoun Valley (VA) **,42,Woodgrove (VA),28,
-2025-11-07,McCluer (VA),48,Eastern Montgomery (VA) **,22,
-2025-11-07,Narrows (VA),48,Bath County (VA) **,7,
-2025-11-07,Sherando (VA) **,41,Liberty Bealton (VA),0,
-2025-11-07,Smith Mountain Christian (VA),27,Mt. View **,20,
-2025-11-07,St. Paul VI (VA),49,Bishop OConnell (VA) **,0,
-2025-11-07,Strasburg (VA) **,19,Woodstock Central (VA),13,
-2025-11-08,Huntington,28,Linsly (WV) **,14,
-2025-11-08,Martinsburg **,68,Hurricane,14,
+date,away_team,away_score,home_team,home_score,note,score_diff
+2025-11-04,Montcalm **,55,Bland (VA),14,,41
+2025-11-06,Princeton,55,South Charleston **,19,,36
+2025-11-07,Clay-Battelle,30,Magnolia **,0,,30
+2025-11-07,Greenbrier West **,55,Gilmer County,6,,49
+2025-11-07,Pendleton County,36,Cameron **,28,,8
+2025-11-07,Pocahontas County **,49,Webster County,0,,49
+2025-11-07,Ritchie County **,38,Calhoun County,0,,38
+2025-11-07,Sherman **,26,Poca,8,,18
+2025-11-07,St. Marys **,48,Wirt County,15,,33
+2025-11-07,Tolsia **,20,River View,12,,8
+2025-11-07,Tucker County **,28,Hampshire,21,,7
+2025-11-07,Tygarts Valley **,32,Montcalm,6,,26
+2025-11-07,Valley-Wetzel,52,Richwood **,42,,10
+2025-11-07,Wahama **,49,Man,0,,49
+2025-11-07,Clay County **,19,Braxton County,17,,2
+2025-11-07,Doddridge County,34,Mingo Central **,14,,20
+2025-11-07,Frankfort,41,Keyser **,7,,34
+2025-11-07,Independence,56,Summers County **,6,,50
+2025-11-07,James Monroe **,49,Tug Valley,6,,43
+2025-11-07,Logan,20,Westside **,0,,20
+2025-11-07,Midland Trail **,66,Lincoln County,0,,66
+2025-11-07,Moorefield,63,Berkeley Springs **,7,,56
+2025-11-07,Petersburg **,38,East Hardy,31,,7
+2025-11-07,Philip Barbour **,55,Lincoln,0,,55
+2025-11-07,Roane County,46,Tyler Consolidated **,43,,3
+2025-11-07,South Harrison,28,Ravenswood **,7,,21
+2025-11-07,Wayne,30,Sissonville **,13,,17
+2025-11-07,Williamstown **,41,Scott,21,,20
+2025-11-07,Wyoming East **,38,Liberty-Raleigh,18,,20
+2025-11-07,Capital,16,Riverside **,8,,8
+2025-11-07,Chapmanville Regional **,69,St. Albans,6,,63
+2025-11-07,Elkins,53,Preston **,35,,18
+2025-11-07,Fairmont Sr.,49,East Fairmont **,14,,35
+2025-11-07,Herbert Hoover,44,Weir **,14,,30
+2025-11-07,Lewis County,10,Grafton **,9,,1
+2025-11-07,Nitro **,23,Greenbrier East,6,,17
+2025-11-07,North Marion,35,Oak Hill **,0,,35
+2025-11-07,PikeView **,56,Buffalo,48,,8
+2025-11-07,Ripley,34,Nicholas County **,19,,15
+2025-11-07,Robert C. Byrd **,34,Buckhannon-Upshur,0,,34
+2025-11-07,Winfield **,35,Pt. Pleasant,12,,23
+2025-11-07,George Washington **,42,Woodrow Wilson,0,,42
+2025-11-07,Jefferson,48,Washington **,0,,48
+2025-11-07,Morgantown **,45,Musselman,0,,45
+2025-11-07,Parkersburg South **,28,Cabell Midland,7,,21
+2025-11-07,Spring Mills **,63,Hedgesville,0,,63
+2025-11-07,Wheeling Park,63,John Marshall **,40,,23
+2025-11-07,Woodson (DC),14,Jackson Reed (DC) **,6,,8
+2025-11-07,Alleghany Highlands (VA),41,Rockbridge County (VA) **,0,,41
+2025-11-07,Craig County (VA),36,Meadow Bridge **,0,,36
+2025-11-07,Dominion (VA) **,42,Park View-Sterling (VA),6,,36
+2025-11-07,Giles (VA) **,53,Wythe (VA),20,,33
+2025-11-07,Graham (VA),56,Richlands (VA) **,12,,44
+2025-11-07,Grundy (VA) **,38,Wise Central (VA),35,,3
+2025-11-07,Heritage-Lynchburg (VA),20,Jefferson Forest (VA) **,14,,6
+2025-11-07,Hurley (VA) **,58,Twin Valley (VA),6,,52
+2025-11-07,John Champe (VA) **,21,Freedom (VA),0,,21
+2025-11-07,Loudoun County (VA),35,Heritage (VA) **,0,,35
+2025-11-07,Loudoun Valley (VA) **,42,Woodgrove (VA),28,,14
+2025-11-07,McCluer (VA),48,Eastern Montgomery (VA) **,22,,26
+2025-11-07,Narrows (VA),48,Bath County (VA) **,7,,41
+2025-11-07,Sherando (VA) **,41,Liberty Bealton (VA),0,,41
+2025-11-07,Smith Mountain Christian (VA),27,Mt. View **,20,,7
+2025-11-07,St. Paul VI (VA),49,Bishop OConnell (VA) **,0,,49
+2025-11-07,Strasburg (VA) **,19,Woodstock Central (VA),13,,6
+2025-11-08,Huntington,28,Linsly (WV) **,14,,14
+2025-11-08,Martinsburg **,68,Hurricane,14,,54

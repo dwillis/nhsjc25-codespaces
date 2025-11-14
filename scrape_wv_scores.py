@@ -40,7 +40,15 @@ rows = table.find_all("tr")
 header = rows[0]
 data_rows = rows[1:]  # skip the header row that contains column titles
 
-# STEP 4: Pull the date, teams, scores, and notes from each row.
+# Helper to turn score text into an integer for math; blank cells become 0.
+def parse_score(value: str) -> int:
+    try:
+        return int(value)
+    except ValueError:
+        return 0
+
+
+# STEP 4: Pull the date, teams, scores, notes, and score differences from each row.
 games = []
 for row in data_rows:
     cells = row.find_all("td")
@@ -54,14 +62,17 @@ for row in data_rows:
     home_score = cells[4].get_text(strip=True)
     note = cells[6].get_text(strip=True)
 
-    games.append([game_date, away_team, away_score, home_team, home_score, note])
+    # Figure out the absolute difference between the two scores.
+    score_diff = abs(parse_score(away_score) - parse_score(home_score))
+
+    games.append([game_date, away_team, away_score, home_team, home_score, note, score_diff])
 
 print(f"Found {len(games)} games. Writing them to {OUTPUT_CSV}...")
 
 # STEP 5: Save the rows to a CSV file.
 with OUTPUT_CSV.open("w", newline="", encoding="utf-8") as csv_file:
     writer = csv.writer(csv_file)
-    writer.writerow(["date", "away_team", "away_score", "home_team", "home_score", "note"])
+    writer.writerow(["date", "away_team", "away_score", "home_team", "home_score", "note", "score_diff"])
     writer.writerows(games)
 
 print("All done! Open the CSV in Excel or Sheets to see the results.")

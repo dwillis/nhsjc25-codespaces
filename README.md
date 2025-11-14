@@ -39,3 +39,11 @@ Run with:
 ```
 
 Press Ctrl+C to stop the Datasette server when finished.
+
+### scrape_mbp_alerts.py
+Downloads the current Maryland Board of Physicians disciplinary alerts table and prints each provider's name, sanction, date, and PDF order link.
+
+Run with:
+```bash
+python scrape_mbp_alerts.py
+```

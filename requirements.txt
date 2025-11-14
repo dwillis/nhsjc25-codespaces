@@ -2,3 +2,5 @@ csvkit
 datasette
 datasette-codespaces
 sqlite-utils
+requests
+beautifulsoup4

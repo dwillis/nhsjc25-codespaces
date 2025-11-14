@@ -40,10 +40,10 @@ Run with:
 
 Press Ctrl+C to stop the Datasette server when finished.
 
-### scrape_mbp_alerts.py
-Downloads the current Maryland Board of Physicians disciplinary alerts table and prints each provider's name, sanction, date, and PDF order link.
+### scrape_wv_scores.py
+Fetches the West Virginia high school football results for a single week and saves them to `wv_scores_week11.csv`.
 
 Run with:
 ```bash
-python scrape_mbp_alerts.py
+python scrape_wv_scores.py
 ```
